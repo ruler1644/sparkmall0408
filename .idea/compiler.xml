@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark-kafka-08" />
+        <module name="spark-kafka-10" />
+        <module name="spark-offline" />
+        <module name="spark-realtime" />
+        <module name="sparkmall-mock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shut-down" target="1.8" />
+      <module name="spark-kafka-08" target="1.8" />
+      <module name="spark-kafka-10" target="1.8" />
+      <module name="spark-offline" target="1.8" />
+      <module name="spark-realtime" target="1.8" />
+      <module name="sparkmall-common" target="1.8" />
+      <module name="sparkmall-mock" target="1.8" />
+      <module name="sparkmall-offline" target="1.8" />
+      <module name="sparkmall0408" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
